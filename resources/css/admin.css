@@ -1,0 +1,7 @@
+@import '@tabler/core/dist/css/tabler.min.css';
+@import '@tabler/core/dist/css/tabler-vendors.min.css';
+@import '../../public/assets/admin/css/custom.css';
+@import "notyf/notyf.min.css";
+.ts-dropdown {
+    right: auto;
+}

@@ -1,0 +1,22 @@
+.subscribe_section_new .price_details .number{
+  background-color: #da86a5;
+}
+.subscribe_section_new .price_details {
+  align-items: center;
+}
+.testimonial_images .item{
+  margin: 15px;
+}
+.owl-wrapper{
+  display: flex !important;
+  align-items: center;
+}
+.owl-carousel  .owl-item{
+  height: 100%;
+}
+.left_icons{
+  position: absolute;
+}
+.video_landing{
+  margin-bottom: -5px;
+}
