@@ -33,25 +33,21 @@
                                     </div>
                                 @endif
                                 <div class="row">
-                                    <div class="col-12 mb-4">
+                                    <div class="col-4 mb-4">
                                         <div class="form-group">
                                             <label class="form-label">Name</label>
                                             <input type="text" class="form-control" name="name" id="name"
                                                 value="{{ $customer->name }}" placeholder="Customer Name" required>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="mb-3">
-                                    <div class="col-12 mb-4">
+                                    <div class="col-4 mb-4">
                                         <div class="form-group">
                                             <label class="form-label">Email</label>
                                             <input type="text" class="form-control" name="email" id="email"
                                                 value="{{ $customer->email }}" placeholder="Email" required>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="mb-3">
-                                    <div class="col-12 mb-4">
+                                    <div class="col-4 mb-4">
                                         <div class="form-group">
                                             <label class="form-label">Password</label>
                                             <input type="password" class="form-control" name="password" id="password"
