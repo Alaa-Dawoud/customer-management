@@ -7,6 +7,7 @@ use App\Models\Customer;
 use App\Enums\CustomerStatus;
 use Yajra\DataTables\Html\Button;
 use Yajra\DataTables\Html\Column;
+use Illuminate\Support\Facades\Auth;
 use Yajra\DataTables\EloquentDataTable;
 use Yajra\DataTables\Html\Editor\Editor;
 use Yajra\DataTables\Html\Editor\Fields;
@@ -47,7 +48,7 @@ class CustomersDataTable extends DataTable
      */
     public function query(Customer $model): QueryBuilder
     {
-        return $model->orderBy('created_at', 'desc');
+        return $model->where('employee_id', Auth::guard('employee')->user()->id)->orderBy('created_at', 'desc');
     }
 
     /**
